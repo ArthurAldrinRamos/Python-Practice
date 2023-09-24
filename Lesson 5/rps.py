@@ -1,8 +1,9 @@
 import sys
 import random
+
 # from enum import Enum
 
-# class RPS(Enum): 
+# class RPS(Enum):
 #     ROCK = 1
 #     PAPER = 2
 #     SCISSORS = 3
@@ -28,7 +29,7 @@ elif player == 2:
 elif player == 3:
     rpsChoicePx = "SCISSORS ✂️"
 
-if player < 1 | player > 3:
+if player < 1 or player > 3:
     sys.exit("Please choose from 1, 2, or 3!")
 
 computerChoice = random.choice("123")
