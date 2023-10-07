@@ -10,3 +10,5 @@ def add_one(num):
 
 myNewTotal = add_one(0)
 print(myNewTotal)
+
+print("next-line".upper().center(15, "="))
