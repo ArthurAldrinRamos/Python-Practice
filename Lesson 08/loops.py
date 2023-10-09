@@ -29,8 +29,26 @@ for name in names:
 
 # for x in range(4):
 #     print(x)
-
-for x in range(0, 110, 10):
+index = 0
+for x in range(0, 1800, 100):
+    index += 1
     print(x)
 else:
     print("Good thing that's over!")
+
+
+def move_zeros(lst):
+    i = 0
+    for x in lst:
+        if x == 0:
+            lst.remove(0)
+            lst.append(0)
+
+        i += 1
+        print(x)
+
+    return lst
+
+
+print(move_zeros([9, 0, 0, 9, 1, 2, 0, 1, 0, 1, 0, 3, 0, 1, 9, 0, 0, 0, 0, 9]))
+print(move_zeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1]))
