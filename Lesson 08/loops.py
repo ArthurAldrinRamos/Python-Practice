@@ -52,3 +52,17 @@ def move_zeros(lst):
 
 print(move_zeros([9, 0, 0, 9, 1, 2, 0, 1, 0, 1, 0, 3, 0, 1, 9, 0, 0, 0, 0, 9]))
 print(move_zeros([1, 2, 0, 1, 0, 1, 0, 3, 0, 1]))
+
+
+def digital_root(n):
+    x = list(str(n))
+    y = []
+    for i in x:
+        y.append(int(i))
+    if len(list(str(sum(y)))) == 1:
+        print (sum(y))
+    else:
+        digital_root(sum(y))
+
+
+digital_root(132189)
