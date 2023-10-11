@@ -61,6 +61,7 @@ def digital_root(n):
         y.append(int(i))
     if len(list(str(sum(y)))) == 1:
         print (sum(y))
+        
     else:
         digital_root(sum(y))
 
