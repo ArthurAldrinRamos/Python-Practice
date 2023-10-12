@@ -20,10 +20,9 @@ def high(x):
         print(splitY[o])
         o += 1
     lmao = list("man i need a taxi up to ubud")
-    
 
 
-# print(splitY)
+print(splitY)
 
 
 high("man i need a taxi up to ubud")
