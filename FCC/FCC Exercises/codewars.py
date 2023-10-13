@@ -22,7 +22,7 @@ def high(x):
     lmao = list("man i need a taxi up to ubud")
 
 
-print(splitY)
+# print(splitY)
 
 
 high("man i need a taxi up to ubud")
