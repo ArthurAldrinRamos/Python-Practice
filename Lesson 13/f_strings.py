@@ -27,9 +27,9 @@ player = {"person": "Arthur", "coins": 4}
 message = "\n{person} has {coins} coins left.".format(**player)
 print(message)
 
-#########################################################
-#####  f-Strings! This is definitely the way!!!!!!  #####
-#########################################################
+###########################################################
+######  f-Strings! This is definitely the way!!!!!!  ######
+###########################################################
 
 message = f"\n{person} has {coins} coins left."
 print(message)
