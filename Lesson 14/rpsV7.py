@@ -108,6 +108,7 @@ def rps():
     return playRps
 
 
-play = rps()
+rockPaperScissors = rps()
 
-play()
+if __name__ == "__main__":
+    rockPaperScissors()
