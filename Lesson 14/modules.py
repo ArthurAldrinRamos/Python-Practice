@@ -7,8 +7,8 @@ from rpsV7 import rockPaperScissors
 
 print(pi)
 
-for item in dir(rdm):
-    print(item)
+# for item in dir(rdm):
+#     print(item)
 
 print(kansas.capital)
 kansas.randomFunFact()
